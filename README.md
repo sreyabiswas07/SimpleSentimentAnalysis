@@ -9,3 +9,4 @@ This is a simple Sentiment analysis python script file for the purpose of learni
 ## Output
 
 The output will be {'neg': xxx, 'neu':yyy, 'pos': zzz, 'compound': xyz}
+Under the hood, we are using SentimentIntensityAnalyzer from NLTK Library which gives us the negetive, neutral, positive and compound value of a sentiment for a sentence/tweet. Range of compound value is -1 to 1.
