@@ -5,7 +5,7 @@ This is a simple example code for Sentiment analysis using NLTK.
 
 - Clone the repository 
 - Change directory to src
-- Uncomment nltk download line if you are running for the first time
+- Uncomment nltk download line in sentiment.py if you are running for the first time
 - Run the command python3 ./sentiment.py
 - If you come across any issues, checkout the Issues section below or create an issue
 
@@ -18,7 +18,7 @@ Under the hood, we are using SentimentIntensityAnalyzer from NLTK Library which 
 
 ## Issues
 
-1) If you get ```[nltk_data] CERTIFICATE_VERIFY_FAILED``` error while running the script, add the below piece of code after importing NLTK and downloading vader_lexicon:
+1) If you get ```[nltk_data] CERTIFICATE_VERIFY_FAILED``` error while running the script, add the below piece of code after importing NLTK.
 
 ```
 import ssl
