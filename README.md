@@ -1,10 +1,11 @@
 # Simple Sentiment Analysis
-This is a simple Sentiment analysis python script file for the purpose of learning.
+This is a simple example code for Sentiment analysis using NLTK.
 
 ## Steps to run this script:
 
-- Save the file with sentiment.py
-- run the command python3 ./sentiment.py
+- Clone the repository 
+- Change directory to src
+- Run the command python3 ./sentiment.py
 
 ## Output
 
